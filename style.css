@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  height: 80px;
+  background-color: rgb(211, 208, 208);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center; /* centraliza na horizontal */
+  align-items: center;     /* centraliza na vertical */
+  height: 450px;            /* altura da tela */
+}
+
+.container {
+  border: 1px solid black;
+  text-align: center;
+  background-color: rgb(211, 208, 208);
+  margin: 100px;
+  width: 240px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.imagemGoogle {
+  height: 50px;
+  width: 50px;
+}
+
+.imagemWhatsapp {
+  height: 30px;
+  width: 30px;
+}
+
+footer {
+  height: 102px;
+  background-color: rgb(211, 208, 208);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 390px;
+}
+
+.corpo {
+  background-color: red;
+  color: white;
+}
